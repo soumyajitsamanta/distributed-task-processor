@@ -55,7 +55,7 @@ nodes themselves. A sample way to send task using java is below.
 ## Using Java to send request to socket server
 ```java
   public static void main(String[] args) throws IOException {
-    String ipOfDevice = "10.200.15.228"
+    String ipOfDevice = "IP OF DEVICE YOU SEE IN ROUTER"
     Socket s = new Socket();
     SocketAddress endpoint = new InetSocketAddress(ipOfDevice, 8000);
     s.connect(endpoint, 10000);
